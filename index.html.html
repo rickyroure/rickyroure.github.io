@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tonya Franklin</title>
+    <link rel="stylesheet" href="index.css.css">
+</head>
+<body>
+  <div class="container">
+      <div class="header">
+        <h1>Tonya Franklin</h1>
+        <img src="tonya.jpg" alt="">
+        <p>Cordoba, capital</p>
+        <p>Teléfono: 351-9238439</p>
+        <p>Correo electrónico: tonya.franklin@example.com</p>
+      </div>
+      <div class="section">
+        <h2 class="texto">RESUMEN PROFESIONAL</h2>
+        <button onclick="toggleSection1()">Mostrar/Ocultar</button>
+        <div id="seccion1" class="oculto">
+          <p>Soy una ingeniera en Sistemas con más de 7 años de experiencia en diseño
+            de paginas Web. Poseo habilidades avanzadas en css y html,
+            y he liderado proyectos exitosos en mi empresa pasada, incluyendo el
+            diseño de una nueva pagina de desarrollo que aumentó la eficiencia
+            en un 30%.  Me apasiona seguir aprendiendo y mejorando mis habilidades
+            tecnologicas.</p>
+        </div>
+        
+      </div>
+      <div class="section">
+        <h2 class="texto">DATOS PERSONALES</h2>
+        <button onclick="toggleSection2()">Mostrar/Ocultar</button>
+        <div id="seccion2" class="oculto">
+          <ul>
+              <li>Genero:Femenino</li>
+              <li>Fecha de nacimiento:11/2/1990</li>
+              <li>Edad:33 años</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="texto">EXPERIENCIA LABORAL</h2>
+        <button onclick="toggleSection3()">Mostrar/Ocultar</button>
+        <div id="seccion3" class="oculto">
+        <ul>
+          <li>
+            <h3>Nombre de la empresa:ABC S.A.</h3>
+            <p>Cargo ocupado:Gerente de Sistemas</p>
+            <p>Fecha de inicio:Enero 2015</p>
+            <p>Fecha de finalización:Agosto 2018</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Nombre de la empresa:JJJ S.A.</h3>
+            <p>Cargo ocupado:Desarrolladora</p>
+            <p>Fecha de inicio:Diciembre 2018 </p>
+            <p>Fecha de finalizacón:Junio 2022</p>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="texto">EDUCACIÓN</h2>
+        <button onclick="toggleSection4()">Mostrar/Ocultar</button>
+        <div id="seccion4" class="oculto">
+        <ul>
+          <li>
+            <h3>Título universitario</h3>
+            <p>Ingenieria en Sistemas</p>
+            <p>Nombre de la universidad:Universidad Tecnologica Nacional</p>
+            <p>Fecha de inicio:2010</p>
+            <p>Fecha de finalización:2017</p>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="texto">HABILIDADES</h2>
+        <button onclick="toggleSection5()">Mostrar/Ocultar</button>
+        <div id="seccion5" class="oculto">
+        <ul>
+          <li>Microsoft Excel</li>
+          <progress max="100" value="80"></progress>
+            <span class="progress-bar-text">80%</span>
+          <li>Java</li>
+          <progress max="100" value="50"></progress>
+            <span class="progress-bar-text">50%</span>
+          <li>Python</li>
+          <progress max="100" value="65"></progress>
+            <span class="progress-bar-text">65%</span>
+          <li>Ingles</li>
+          <progress max="100" value="95"></progress>
+            <span class="progress-bar-text">95%</span>
+          <li>Habilidad para trabajar en equipo</li>
+          <progress max="100" value="100"></progress>
+            <span class="progress-bar-text">100%</span>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <script src="index.js.js"></script>
+</body>
+</html>
